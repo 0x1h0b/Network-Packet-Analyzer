@@ -2,8 +2,8 @@
 
 ## Short Description:-
 This program allows us to analyze the ethernet/network packets (IPv4 Only) that are routed through our device.
-On running this program it displays various usefull information about the packets origin and destination such as its
-addresses and ports ,apart from these we can also analyze different layers of the frame and further investigate on 
+On running this program it displays various important information about the packets origin and destination such as its
+addresses and ports,apart from these we can also analyze different layers of the frame to further investigate on 
 its segments (UDP ,TCP, ICMP) to display its version and protocol infos.
 
 **NOTE**:- i have not considered the core data that the frame is carrying beacause most of the times it is encrypted 
