@@ -52,8 +52,7 @@ def main():
                 print('\t'+'- ICMP Segment:')
                 print('\t\t'+'- ICMP type:{} , icmp code:{} ,checksum:{}'.format(i.type,i.code,i.checksum))
 
-            else:
-                print('Unknown segment Type:')
+            
         else:
             print('Following is not an IPv4 Packet:')
 
