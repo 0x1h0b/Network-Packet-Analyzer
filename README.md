@@ -14,7 +14,7 @@ its segments (UDP ,TCP, ICMP) to display its version and protocol infos.
 ## Requirements:-
  
    **Python3 -** 
-      It can be downloaded and install from it's [official website](https://www.python.org/downloads/).
+      You can download and install it from it's [official website](https://www.python.org/downloads/).
       It is available for all types of platforms (windows , Linux and mac). In Linux/Mac it comes pre-installed.    
       Here i have used some of python's built in modules (*socket and struct*) for capturing and analyzing packets. 
      so there is no need of installing any external package. 
@@ -31,7 +31,7 @@ its segments (UDP ,TCP, ICMP) to display its version and protocol infos.
  Now if you wish to clone  through terminal then you must install git first. 
  You can refer to their [official website](https://git-scm.com/) to install git.
  
- Open cmd  and navigate to the project location.
+ Open cmd/terminal  and navigate to the project location.
  
  for example if you have saved it in desktop, type-
  ```
@@ -48,8 +48,8 @@ its segments (UDP ,TCP, ICMP) to display its version and protocol infos.
  ``` 
  sudo python3 main.py
  ```
-  As the code works by creating sockets, we need the root/administrator privelege to create them.
-  By this you give permission to capture the network packets. 
+  As the code works by creating sockets, we need to have root/administrative access to create them.
+  (By this you give permission to capture the network packets) 
  
  Thats it. Now the script should run properly without any error.
  
@@ -73,6 +73,9 @@ we know that HTTP data are not encrypted,they are transmitted as plain text.and 
 as their source and destination ports. so we can use these facts to generalize that whenever the port address is 80 we 
 should pass the core data to a function which is capable of properly formatting the texts and display it to the user.
 
-
+## References:-
+1. [Socket Programming](https://docs.python.org/3/howto/sockets.html)
+2. [Struct](https://docs.python.org/3.7/library/struct.html)
+3. [More on sockets](https://www.techbeamers.com/python-tutorial-essentials-of-python-socket-programming/)
 
  
