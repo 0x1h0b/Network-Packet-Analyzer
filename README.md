@@ -28,8 +28,8 @@ its segments (UDP ,TCP, ICMP) to display its version and protocol infos.
  git clone https://github.com/hb10001/Network-Packet-Analyzer.git
  ```
  
- After the download/clone process is completed,navigate to the project location inside terminal.
- after you have reached inside the project folder.you should be able to see a python script 'main.py'.
+ After the download/clone process is completed,navigate over to the project location inside the terminal.
+ when you are inside the project folder you can see a python script named 'main.py'.
  
  Now run that script-
  ``` 
