@@ -23,44 +23,32 @@ its segments (UDP ,TCP, ICMP) to display its version and protocol infos.
 
  Download the project and extract it.          or 
   
-  Open terminal and clone the project by typing the following (Assuming you want to save it in desktop)
+  Open terminal and clone the project.
 ```
- cd Desktop
  git clone https://github.com/hb10001/Network-Packet-Analyzer.git
  ```
- Now if you wish to clone  through terminal then you must install git first. 
- You can refer to their [official website](https://git-scm.com/) to install git.
  
- Open cmd/terminal  and navigate to the project location.
+ After the download/clone process is completed,navigate to the project location inside terminal.
+ after you have reached inside the project folder.you should be able to see a python script 'main.py'.
  
- for example if you have saved it in desktop, type-
- ```
- cd Desktop/Network-Packet-Analyzer/
- ```
- 
- After you have reached inside the project folder. try listing files present inside it by the command-
- ```
- ls -la
- ```
- you should be able to see a python script 'main.py'.
- 
- Now run the script-
+ Now run that script-
  ``` 
  sudo python3 main.py
  ```
   As the code works by creating sockets, we need to have root/administrative access to create them.
   (By this you give permission to capture the network packets) 
  
- Thats it. Now the script should run properly without any error.
- 
  
  **windows user-** 
 
-As there is no sudo like option in  windows command line Interface.So make sure that at the time when you are 
- opening cmd , you run it as an administrator.
+  open CMD as administrator
                     
  *Right-Click-On-CMD >> Run-As-Administrator*
  
+ navigate over to the project folder and then run the script
+ ```
+ python3 main.py
+ ```
  ## Output:-
  
  you should get an output similar to this -
