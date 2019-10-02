@@ -1,5 +1,5 @@
 
-import struct
+import struct #this is used to unpack the data bytes present in packet network
 
 class udp:
     def __init__(self,raw_data):
