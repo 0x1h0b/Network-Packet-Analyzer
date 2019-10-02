@@ -56,10 +56,7 @@ its segments (UDP ,TCP, ICMP) to display its version and protocol infos.
 ![Output](Output.png "Sample Output")
 
 ## To Do:-
-
-we know that HTTP data are not encrypted,they are transmitted as plain text.and also for the fact that they use port 80
-as their source and destination ports. so we can use these facts to generalize that whenever the port address is 80 we 
-should pass the core data to a function which is capable of properly formatting the texts and display it to the user.
+HTTP is not safe as does encrypt the data and it uses port 80. We can use this fact to filter all http packets and pass it to a function(this function will format the http data).
 
 ## References:-
 1. [Socket Programming](https://docs.python.org/3/howto/sockets.html)
