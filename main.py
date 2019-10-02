@@ -1,5 +1,6 @@
-import socket
-import sys
+import socket#to create a socket
+
+import sys #to execute system commands 
 
 
 from HelperFunc.Ethernet import EthernetFrame
