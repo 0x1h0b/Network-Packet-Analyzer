@@ -1,4 +1,4 @@
-import struct
+import struct #this is used to unpack the data bytes present in the packet network
 import socket
 
 # Helper class for extracting information about Ethernet frame
