@@ -54,9 +54,7 @@ its segments (UDP ,TCP, ICMP) to display its version and protocol infos.
  you should get an output similar to this -
 
 ![Output](Output.png "Sample Output")
-''' 
-  for any help contact
-'''
+
 ## To Do:-
 
 we know that HTTP data are not encrypted,they are transmitted as plain text.and also for the fact that they use port 80
