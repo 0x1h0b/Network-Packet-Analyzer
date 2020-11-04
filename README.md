@@ -1,7 +1,7 @@
 # Network-Packet-Analyzer 
 
 ## Short Description:-
-A packet analyzer or packet sniffer is a computer program, or computer hardware such as a packet capture appliance, that can intercept and log traffic that passes over a computer network or part of a network.
+
 This program allows us to analyze the ethernet/network packets (IPv4 Only) that are routed through our device.
 On running this program it displays various important information about the packets origin and destination such as its
 addresses and ports,apart from these we can also analyze different layers of the frame to further investigate on 
