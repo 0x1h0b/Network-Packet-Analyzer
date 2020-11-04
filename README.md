@@ -26,7 +26,7 @@ its segments (UDP ,TCP, ICMP) to display its version and protocol infos.
   
   Open terminal and clone the project.
 ```
- git clone https://github.com/hb10001/Network-Packet-Analyzer.git
+ git clone https://github.com/0x1h0b/Network-Packet-Analyzer.git
  ```
  
  After the download/clone process is completed,navigate over to the project location inside the terminal.
